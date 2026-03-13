@@ -7,7 +7,7 @@
 #include <time.h>         // 実行時間の計測用
 
 #define PAGE_SIZE 4096       // 一般的なページサイズ（4KB）
-#define MAX_ERRORS 10000     // 記録する最大エラー数。さすがに1万個もエラーが出たらシステムが死んでるはず…
+#define MAX_ERRORS 10000     // 記録する最大エラー数。
 #define CSV_FILENAME "evaluation.csv" // 結果の保存先
 
 // --- テストの実行条件 ---
